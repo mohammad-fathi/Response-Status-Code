@@ -1,5 +1,5 @@
 import requests
-input_url = input("Enter all URL Site separated by space: ")
+input_url = input("Enter all URL Site separated by Space: ")
 website_url = input_url.split(" ")
 
 statuses = {200: "Website Available",301: "Permanent Redirect",302: "Temporary Redirect",404: "Not Found",500: "Internal Server Error",503: "Service Unavailable"}
