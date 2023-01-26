@@ -19,6 +19,6 @@ Enter all URL Site separated by Space: https://google.com http://192.168.1.2 htt
 >Output
 ```
 https://google.com Website Available
-Could Not DNS Resolve or bad URL
+http://192.168.1.2 Could Not DNS Resolve or bad URL
 https://yahoo.com Website Available
 ```
