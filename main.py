@@ -8,5 +8,5 @@ for url in website_url:
         web_response = requests.get(url)
         print(url, statuses[web_response.status_code])
     except:
-        print(url+" Could Not DNS Resolve or Bad URL")
+        print(url + " Could Not DNS Resolve or Bad URL")
 
